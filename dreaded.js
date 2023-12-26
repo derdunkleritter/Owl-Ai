@@ -136,7 +136,7 @@ if (wapresence === 'recording' && !m.isGroup) {
 
 
 
-    if (autoread === 'TRUE' && !m.isGroup) { 
+    if (autoread === 'FALSE' && !m.isGroup) { 
              client.readMessages([m.key])
     }
 
