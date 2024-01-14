@@ -436,7 +436,7 @@ let cap = `╭════〘 𝐆𝐑𝐀𝐕𝐈𝐓𝐘'𝐒 𝐁𝐎𝐓 〙
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: fs.readFileSync('./menu.mp4'),
+                        video: fs.readFileSync('./menu.jpg'),
                         caption: cap,
                         gifPlayback: true
                     }, {
