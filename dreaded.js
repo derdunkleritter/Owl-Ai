@@ -446,7 +446,7 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://a.uguu.se/xALfKfzA.mp4'}, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/3c172546c462413a7a200.jpg'}, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
@@ -455,8 +455,8 @@ client.sendMessage(m.chat, {
                                 showAdAttribution: true,
                                 title: `𝐎𝐖𝐋 𝐀𝐈`,
                                 body: `${runtime(process.uptime())}`,
-                                thumbnail: fs.readFileSync('./owl-ai.jpg'),
-                                sourceUrl: 'https://wa.me/254743551416?text=ʜᴇʟʟᴏ+𝐌𝐀𝐋𝐈𝐁𝐔+Nihostie+Bot+Mkuu+🥲',
+                                thumbnail: fs.readFileSync('./3c172546c462413a7a200.jpg'),
+                                sourceUrl: 'https://wa.me/254106348653?text=ʜᴇʟʟᴏ+𝐌𝐀𝐒𝐓𝐄𝐑 𝐆𝐑𝐀𝐕𝐈𝐓𝐘+Nihostie+Bot+Mkuu+🥲',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
