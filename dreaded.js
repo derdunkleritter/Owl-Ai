@@ -436,7 +436,7 @@ let cap = `╭════〘 𝐃𝐔𝐍𝐊𝐋𝐄'𝐒 𝐁𝐎𝐓 〙═�
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: fs.readFileSync('./menu.jpg'),
+                        video: fs.readFileSync('./menu.mp4'),
                         caption: cap,
                         gifPlayback: true
                     }, {
