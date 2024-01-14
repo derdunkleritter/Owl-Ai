@@ -340,9 +340,9 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
       switch (command) {
       case "help":
         case "menu":
-let cap = `╭════〘 𝐆𝐑𝐀𝐕𝐈𝐓𝐘'𝐒 𝐁𝐎𝐓 〙═⊷❍
+let cap = `╭════〘 𝐃𝐔𝐍𝐊𝐋𝐄'𝐒 𝐁𝐎𝐓 〙═⊷❍
 ┃𓅓╭──────────────
-┃𓅓│ Owner :  𝐌𝐀𝐒𝐓𝐄𝐑 𝐆𝐑𝐀𝐕𝐈𝐓𝐘
+┃𓅓│ Owner : 𝐃𝐔𝐍𝐊𝐋𝐄 𝐑𝐈𝐓𝐓𝐄𝐑
 ┃𓅓│ User : ${m.pushName} 
 ┃𓅓│ Platform : Tesla x
 ┃𓅓│ Available RAM 34GB of 62GB
@@ -351,7 +351,7 @@ let cap = `╭════〘 𝐆𝐑𝐀𝐕𝐈𝐓𝐘'𝐒 𝐁𝐎𝐓 〙
 ┃𓅓│
 ┃𓅓│▎▍▌▌▉▏▎▌▉▐▏▌
 ┃𓅓│▎▍▌▌▉▏▎▌▉▐▏▌
-┃𓅓│ 𝐆𝐑𝐀𝐕𝐈𝐓𝐘'𝐒 𝐁𝐎𝐓
+┃𓅓│ 𝐃𝐔𝐍𝐊𝐋𝐄'𝐒 𝐁𝐎𝐓
 ┃𓅓│
 ┃╰─────
 ╰─────────────────❍
@@ -446,7 +446,7 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/3c172546c462413a7a200.jpg'}, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/8bb5324a88eefac7d9a70.mp4'}, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
@@ -455,7 +455,7 @@ client.sendMessage(m.chat, {
                                 showAdAttribution: true,
                                 title: `𝐎𝐖𝐋 𝐀𝐈`,
                                 body: `${runtime(process.uptime())}`,
-                                thumbnail: fs.readFileSync('./3c172546c462413a7a200.jpg'),
+                                thumbnail: fs.readFileSync('./8bb5324a88eefac7d9a70.mp4'),
                                 sourceUrl: 'https://wa.me/254106348653?text=ʜᴇʟʟᴏ+𝐌𝐀𝐒𝐓𝐄𝐑 𝐆𝐑𝐀𝐕𝐈𝐓𝐘+Nihostie+Bot+Mkuu+🥲',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
